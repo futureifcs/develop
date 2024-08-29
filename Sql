@@ -1,2 +1,0 @@
-select la.*, la.rowid, api_rests.GetLiasIDRest(la.liasid,2), api_rests.GetAccIDRest(la.accid) from brsacc2lias la where la.accid =  18432703 and la.status=1; 
-select la.*,la.rowid, api_rests.GetLiasIDRest(la.liasid,2), api_rests.GetAccIDRest(la.accid) from brsacc2lias la where la.accid =  18432711 and la.status=1;
